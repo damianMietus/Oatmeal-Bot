@@ -1,7 +1,7 @@
 const Commando = require("discord.js-commando");
 const bot = new Commando.Client();
 //const config = require("./config.json");
-const TOKEN = '/*Toke goes here!*/'
+const TOKEN = '/*Token goes here!*/'
 
 bot.registry.registerGroup('game', 'Game');
 bot.registry.registerGroup('info', 'Info');

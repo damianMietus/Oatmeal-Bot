@@ -206,7 +206,7 @@ module.exports = OatHangmanCommand;
 function alphaCheck(input){
     return input.match("^[a-zA-Z]+$");    
 }
-/** Written By: Efe Naci Giray
+/** Author of this Function: Efe Naci Giray
  * Retrieved from https://gist.github.com/efenacigiray/9367920
  * October 28 2018
  */ 

@@ -11,8 +11,7 @@ bot.registry.registerCommandsIn(__dirname + "/commands");
 //bot.registry.registerCommandsIn(__dirname + '/commands');
 
 bot.on("message", function(message) {
-
-
+  
   bot.on('ready', function(){
     console.log("Ready");
   })
